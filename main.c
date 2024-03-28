@@ -1,6 +1,5 @@
 #include "monty.h"
 stack_t *stack = NULL;
-
 /**
  * main - Monty program entry point
  * @argc: Number of command-line arguments
@@ -52,6 +51,7 @@ void search_instruction(char *line, unsigned int l)
 		{"add", add},
 		{"sub", sub},
 		{"divide", divide},
+		{"nop",nop},
 		{"multiply", multiply},
 		{"modulo", modulo},
 		{"pchar", pchar},
